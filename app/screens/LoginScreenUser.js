@@ -59,7 +59,7 @@ function LoginScreenUser({ navigation }) {
         </Text>
         <View style={styles.form}>
           <AppForm
-            initialValues={{ email: "test@test.com", password: "testtest" }}
+            initialValues={{ email: "", password: "" }}
             validationSchema={loginValidationSchema}
             onSubmit={(values) => {
               LoginUser(values)

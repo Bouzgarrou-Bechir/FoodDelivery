@@ -4,17 +4,20 @@ import { getAuth } from "firebase/auth";
 import { getFirestore, serverTimestamp } from "firebase/firestore";
 
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyB_0naDP00CaMJUn10CBYf8iCeoYQhHh38",
-  authDomain: "backupcmandifood.firebaseapp.com",
-  databaseURL: "https://backupcmandifood-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "backupcmandifood",
-  storageBucket: "backupcmandifood.appspot.com",
-  messagingSenderId: "138633964711",
-  appId: "1:138633964711:web:1e20c5f3af357d37b1bf82",
-  measurementId: "G-Y2EFCHFJWK"
+  apiKey:  process.env.FIREBASE_API_KEY,
+  authDomain:  process.env.FIREBASE_AUTH_DOMAIN,
+  projectId:  process.env.FIREBASE_PROJECT_ID,
+  storageBucket:  process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId:  process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId:  process.env.FIREBASE_APP_ID,
+  measurementId: process.env.FIREBASE_databaseURL,
+  databaseURL: process.env.FIREBASE_measurementId
+
 };
+
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

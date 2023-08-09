@@ -20,9 +20,9 @@ import {db, auth} from "../configs/firebase";
 import {getAuth} from "firebase/auth";
 
 
+const API_URL = process.env.API_URL;
+const API_TOKEN = process.env.API_TOKEN;
 
-const YELP_API_KEY =
-  "X6Lusgt0QnnwQe_Xg6YfePxdOn7GFiQ8kMHxeKBklO2mMnXTM_dRkCCzdt98FFlS_qmOBNmmJcMdTJGKo8Mb9buQgzO4Fz0Mtt9DS3MZe8Md6zUCxrWe7wUsW81aYnYx";
 
 const HomeScreen = () => {
 
@@ -34,11 +34,11 @@ const HomeScreen = () => {
     const [loading, setLoading] = useState(false);
 
     const getRestaurantsFromYelp = () => {
-        const yelpUrl = `https://api.yelp.com/v3/businesses/search?term=restaurants&location=${city}`;
+        const yelpUrl = `${API_URL}${city}`;
 
         const apiOptions = {
             headers: {
-                Authorization: `Bearer ${YELP_API_KEY}`,
+                Authorization: `Bearer ${API_TOKEN}`,
             },
         };
         setLoading(true);

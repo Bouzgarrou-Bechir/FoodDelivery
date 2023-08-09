@@ -20,7 +20,7 @@ const SearchBar = ({ setCity, city }) => {
         returnKeyType={"search"}
         onFail={(error) => console.error(error)}
         query={{
-          key: "AIzaSyB-4_6744UKGndENImTEh6pkwg-DGtmgCs",
+          key: process.env.SEARCH_API,
           language: "en",
         }}
         styles={{
