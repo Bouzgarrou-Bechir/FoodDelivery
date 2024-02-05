@@ -1,4 +1,5 @@
-# FoodDelivery
+
+# Food ordering and delivery app
 
 <p>
   <!-- iOS -->
@@ -14,31 +15,42 @@
     <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
   </a>
 </p>
+A user-friendly mobile application dedicated to simplifying the process of ordering and delivering delicious food right to your doorstep.
+
+
+## 📝 Features
+
+- Employed third-party APIs to facilitate seamless access to restaurants data and menus.
+- Implemented an efficient login/register feature, improving user access and authentication.
+- Enabled real-time order tracking, empowering users to monitor their orders in the moment.
+- Incorporated favorite item selection, optimized shopping cart features, facilitated secure payment processes, and introduced profile management to elevate the user experience.
+- Attained the capacity to conduct user, order, and feedback consultations with a heightened focus on security levels, ensuring information access and interactions are appropriately tailored based on user roles for enhanced data protection and system security.
+
+## 🛠 Skills
+Utilized React Native for a dynamic front end, paired with a reliable Node.js backend, intricately connected to Firebase, ensuring a potent and scalable application architecture.
 
 ## 🚀 How to use
 
 - Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
+    - If you have native iOS code run `npx pod-install`
 - Run `yarn start` to start the bundler.
 - Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
+    - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
+    - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
+    - Web: Any web browser
+  
+## 📷 Screenshots
 
-## Adding Native Code
+![App Screenshot](https://github.com/Bouzgarrou-Bechir/FoodDelivery/blob/master/assets/1.png?raw=true)
 
-This project can be run from a web browser or the Expo client app. You may find that you want to add more native code later on. You can do this by ejecting the project and rebuilding it yourself.
+![App Screenshot](https://github.com/Bouzgarrou-Bechir/FoodDelivery/blob/master/assets/2.png?raw=true)
 
-- Run `yarn eject` to create the native projects.
-- You can still run your project in the web browser or Expo client, you just won't be able to access any new native modules you add.
+![App Screenshot](https://github.com/Bouzgarrou-Bechir/FoodDelivery/blob/master/assets/3.png?raw=true)
 
-## Publishing
+![App Screenshot](https://github.com/Bouzgarrou-Bechir/FoodDelivery/blob/master/assets/4.png?raw=true)
 
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
+![App Screenshot](https://github.com/Bouzgarrou-Bechir/FoodDelivery/blob/master/assets/5.png?raw=true)
 
-## 📝 Notes
+![App Screenshot](https://github.com/Bouzgarrou-Bechir/FoodDelivery/blob/master/assets/6.png?raw=true)
 
-- Learn more about [React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
+
